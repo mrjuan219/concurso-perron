@@ -1,0 +1,121 @@
+body{overflow : hidden; overflow-y : scroll;
+  overflow : -moz-scrollbars-vertica}
+  a{
+    text-decoration: none;
+  }
+*{
+	box-sizing: border-box;
+  margin:0;
+	padding:0;
+}
+
+html,body{
+	text-align: center;
+  background-color: black;
+}
+
+.Fondo{
+  background-image: url('../img/fondo.jpg');
+  display: inline-block;
+  background-size: cover;
+  width: 100%;
+  height: 710px;
+}
+.Contenedor{
+  width: 500px;
+  height: 550px;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right:0;
+  margin: auto;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+}
+.fecha{
+  width: 300px;
+  height: 60px;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 1px;
+  top:80px;
+}
+#fechadatos{
+  font-family: fantasy;
+  font-size: 30px;
+  color: black;
+
+}
+
+.CajaTexto{
+  position: absolute;
+  left: 20px;
+  top:  170px;
+
+}
+.CajaTexto input{
+  width: 350px;
+  height: 50px;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 1px solid #000000;
+font-size: 50px;
+font-family: fantasy;
+
+}
+.BotonText{
+  background-color: gray;
+  width: 90px;
+  height: 48px;
+  position: absolute;
+  left: 390px;
+  top: 170.5px;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 1px solid #000000;
+}
+.BotonText :hover{
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+}
+.IconoCerveza img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 250px;
+}
+.slogan{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 380px;
+}
+.mas{
+   font-family: fantasy;
+   color: white;
+   font-size: 38px;
+}
+
+.mas :hover{
+  font-family: fantasy;
+  color: white;
+  font-size: 38px;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 0px solid #000000;
+}
